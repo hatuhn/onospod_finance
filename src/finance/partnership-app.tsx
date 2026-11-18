@@ -5,6 +5,7 @@ import {ArrowDownToLine,ArrowDownUp,Eye,FileText,LayoutDashboard,Pencil,Plus,Rot
 import {Area,AreaChart,CartesianGrid,Tooltip,XAxis,YAxis} from 'recharts';
 import {PartnershipShell} from './workspace-shell';
 import {base} from './routes';
+import {useBrowserQuery} from './browser-query';
 import {asOf,dateRange} from './repository';
 import {MockPartnershipRepository,centsFromInput,partnershipView,partnerLevels,partnerResources,partnerCategories,type PartnershipData,type PartnerCustomer,type PartnerContract,type PartnerTransaction} from './partnership-repository';
 import {language,type Language} from './i18n';
@@ -24,12 +25,13 @@ const root=base+'/workspaces/partnership';
 const resourceKey=(resource:string)=>'partnerResource'+resource[0].toUpperCase()+resource.slice(1);
 const dateValid=(value:string)=>/^\d{4}-\d{2}-\d{2}$/.test(value)&&Number.isFinite(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value;
 
-export function PartnershipApp({page,query}:{page:string;query:string}) {
+export function PartnershipApp({page,query:initialQuery}:{page:string;query:string}) {
   const [repo]=useState(()=>new MockPartnershipRepository());
   const data=useSyncExternalStore(repo.subscribe,repo.snapshot,repo.serverSnapshot);
   const [editor,setEditor]=useState<Editor|null>(null);
   const [detail,setDetail]=useState<Editor|null>(null);
   const [error,setError]=useState('');const [notice,setNotice]=useState('');const [reset,setReset]=useState(false);
+  const query=useBrowserQuery(initialQuery);
   const params=new URLSearchParams(query);const locale:Locale=params.get('lang')==='vi'?'vi':'en';const l=language(locale);
   const range={from:params.get('from')??dateRange('thisMonth').from,to:params.get('to')??asOf};
   const invalid=!dateValid(range.from)||!dateValid(range.to)||range.from>range.to||range.to>asOf;

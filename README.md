@@ -86,3 +86,19 @@ NEXT_TELEMETRY_DISABLED=1 npm run test:e2e
 ```
 
 Set `PLAYWRIGHT_CHROME` to a local Chrome executable if it is already installed. The smoke tests cover finance and workspace routes in both languages, enforce local GET-only traffic during navigation, and save screenshots under `test-results/screenshots` by default.
+
+## GitHub Pages demo
+
+Live demo: https://hatuhn.github.io/onospod_finance-demo/
+
+The application source stays in the private `hatuhn/onospod_finance` repository. The public `hatuhn/onospod_finance-demo` repository contains generated static files and its Pages deployment workflow.
+
+```sh
+npm run build:pages
+npm run test:pages
+npm run publish:pages
+```
+
+Publishing requires GitHub CLI authentication with write access to the dedicated demo repository. Each push of the static build to its `main` branch triggers GitHub Pages deployment. This does not require a cross-repository token in GitHub Actions. Source changes must be rebuilt and published with the commands above.
+
+For a local static preview, run `npm run preview:pages` and open `http://127.0.0.1:3200/onospod_finance-demo/`. The regular `npm run dev` and `npm run build` commands continue to run without a deployment path prefix.

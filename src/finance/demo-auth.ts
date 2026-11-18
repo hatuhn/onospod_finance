@@ -15,11 +15,12 @@ export function safeLoginReturn(value:string|null,locale:Locale) {
   try {
     const url=new URL(value,'http://demo.local');
     if(url.origin!=='http://demo.local'||url.username||url.password)return fallback;
-    const path=url.pathname;
+    const path=url.pathname.replace(/\/$/,'');
     const finance=path===base||Object.hasOwn(pages,path.slice(base.length+1))&&path.startsWith(base+'/');
     const workspaces:Record<string,string[]>= {onosexpress:['overview','shipments','carriers'],warehouse:['overview'],partnership:['overview','customers','contracts','cashflow']};
-    const match=path.match(/^\/admin\/finance-demo\/workspaces\/([^/]+)\/([^/]+)$/);
-    if(!finance&&!(match&&workspaces[match[1]]?.includes(match[2])))return fallback;
+    const relative=path.startsWith(base+'/workspaces/')?path.slice((base+'/workspaces/').length).split('/'):[];
+    const match=relative.length===2?relative:null;
+    if(!finance&&!(match&&workspaces[match[0]]?.includes(match[1])))return fallback;
     url.searchParams.set('lang',locale);return path+'?'+url.searchParams;
   }catch{return fallback;}
 }

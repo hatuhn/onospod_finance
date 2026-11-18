@@ -1,4 +1,4 @@
-export const base = '/admin/finance-demo';
+export const base = (process.env.NEXT_PUBLIC_BASE_PATH || '') + '/admin/finance-demo';
 export const navigation = {
   financialOperations: {
     overview: 'financeOverview', orders: 'orderProfit', 'order-invoices': 'orderInvoices', customers: 'customersFinance',

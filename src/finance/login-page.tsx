@@ -8,11 +8,15 @@ import {Dialog} from '../components/ui/dialog';
 import {Segment} from './ui';
 import {language} from './i18n';
 import {base} from './routes';
+import {useBrowserQuery} from './browser-query';
 import {demoAuth,demoCredentials,safeLoginReturn} from './demo-auth';
 import type {Locale} from './views';
 
 function GoogleMark(){return <span className="google-mark" aria-hidden="true">G</span>;}
-export function LoginPage({locale,returnTo}:{locale:Locale;returnTo:string|null}) {
+export function LoginPage({locale:initialLocale,returnTo:initialReturnTo}:{locale:Locale;returnTo:string|null}) {
+  const initialParams=new URLSearchParams({lang:initialLocale});if(initialReturnTo)initialParams.set('returnTo',initialReturnTo);
+  const query=useBrowserQuery(initialParams.toString());const params=new URLSearchParams(query);
+  const locale:Locale=params.get('lang')==='vi'?'vi':'en';const returnTo=params.get('returnTo');
   const l=language(locale);const [email,setEmail]=useState('');const [password,setPassword]=useState('');const [visible,setVisible]=useState(false);const [busy,setBusy]=useState(false);const [error,setError]=useState('');const [google,setGoogle]=useState(false);
   useEffect(()=>{document.documentElement.lang=locale;},[locale]);
   const destination=safeLoginReturn(returnTo,locale);

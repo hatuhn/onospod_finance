@@ -5,6 +5,7 @@ import {ArrowDownToLine,BarChart3,Boxes,CalendarDays,Eye,LayoutDashboard,Menu,Pa
 import {Bar,BarChart,CartesianGrid,Tooltip,XAxis,YAxis} from 'recharts';
 import {WorkspaceSwitcher} from './workspaces';
 import {base} from './routes';
+import {useBrowserQuery} from './browser-query';
 import {asOf,dateRange,MockFinanceRepository,presets,type Preset} from './repository';
 import {expressView} from './express-repository';
 import {language} from './i18n';
@@ -16,12 +17,13 @@ import {Input} from '../components/ui/input';
 import {Dialog} from '../components/ui/dialog';
 import {ChartContainer,ChartTooltipContent} from '../components/ui/chart';
 
-export function OperationsApp({workspace,page,query}: {workspace:'onosexpress'|'warehouse';page:string;query:string}) {
+export function OperationsApp({workspace,page,query:initialQuery}: {workspace:'onosexpress'|'warehouse';page:string;query:string}) {
   const [repository] = useState(()=>new MockFinanceRepository());
   const [data] = useState(()=>repository.snapshot());
   const [collapsed,setCollapsed] = useState(false);
   const [menu,setMenu] = useState(false);
   const [detail,setDetail] = useState<{entity:Entity;id:string}|null>(null);
+  const query=useBrowserQuery(initialQuery);
   const params = new URLSearchParams(query);
   const locale: Locale = params.get('lang') === 'vi' ? 'vi' : 'en';
   const l = language(locale);

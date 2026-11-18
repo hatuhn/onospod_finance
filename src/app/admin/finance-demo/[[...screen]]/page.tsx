@@ -6,8 +6,11 @@ type PageProps = {
   params: Promise<{screen?: string[]}>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
+export const dynamicParams = false;
+export function generateStaticParams() {return [{screen:[]},...Object.keys(pages).map(screen=>({screen:[screen]}))];}
 export default async function Page({params, searchParams}: PageProps) {
-  const [{screen = []}, query] = await Promise.all([params, searchParams]);
+  const {screen = []} = await params;
+  const query = process.env.NEXT_PUBLIC_STATIC_EXPORT === 'true' ? {} : await searchParams;
   const id = screen[0] ?? 'overview';
   if (screen.length > 1 || !Object.hasOwn(pages, id)) notFound();
   const search = new URLSearchParams();

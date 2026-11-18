@@ -1,0 +1,10 @@
+import {spawnSync} from 'node:child_process';
+import {writeFileSync} from 'node:fs';
+const prefix=process.env.PAGES_BASE_PATH || '/onospod_finance-demo';
+if(!/^\/[a-zA-Z0-9_-]+$/.test(prefix))throw new Error('Invalid Pages project prefix');
+const result=spawnSync('npm',['run','build'],{stdio:'inherit',env:{...process.env,NEXT_TELEMETRY_DISABLED:'1',NEXT_PUBLIC_STATIC_EXPORT:'true',NEXT_PUBLIC_BASE_PATH:prefix}});
+if(result.status!==0)process.exit(result.status??1);
+const destination=prefix+'/admin/finance-demo/login/?lang=vi';
+writeFileSync('out/index.html',`<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=${destination}"><title>Onos Demo</title></head><body><p><a href="${destination}">Mở Onos Demo</a></p></body></html>`);
+writeFileSync('out/.nojekyll','');
+console.log('Static demo ready: out/');
