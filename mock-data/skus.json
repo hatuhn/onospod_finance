@@ -1,0 +1,86 @@
+[
+  {
+    "id": "APP-HOODIE",
+    "name": "All-Over Print Hoodie",
+    "department_id": "may_mac",
+    "base_price_cents": 2100,
+    "base_cost_cents": 1200
+  },
+  {
+    "id": "APP-POLO",
+    "name": "3D Polo Shirt",
+    "department_id": "may_mac",
+    "base_price_cents": 1800,
+    "base_cost_cents": 1000
+  },
+  {
+    "id": "APP-JERSEY",
+    "name": "Sports Jersey",
+    "department_id": "may_mac",
+    "base_price_cents": 1600,
+    "base_cost_cents": 900
+  },
+  {
+    "id": "2D-TSHIRT",
+    "name": "DTG T-Shirt",
+    "department_id": "two_d",
+    "base_price_cents": 1100,
+    "base_cost_cents": 600
+  },
+  {
+    "id": "2D-TOTE",
+    "name": "Printed Tote Bag",
+    "department_id": "two_d",
+    "base_price_cents": 900,
+    "base_cost_cents": 500
+  },
+  {
+    "id": "2D-MUG",
+    "name": "Printed Mug",
+    "department_id": "two_d",
+    "base_price_cents": 1000,
+    "base_cost_cents": 600
+  },
+  {
+    "id": "HM-WOOD",
+    "name": "Wood Ornament",
+    "department_id": "handmade",
+    "base_price_cents": 1300,
+    "base_cost_cents": 800
+  },
+  {
+    "id": "HM-ACRYLIC",
+    "name": "Acrylic Sign",
+    "department_id": "handmade",
+    "base_price_cents": 1700,
+    "base_cost_cents": 1100
+  },
+  {
+    "id": "HM-COIN",
+    "name": "UV Commemorative Coin",
+    "department_id": "handmade",
+    "base_price_cents": 1200,
+    "base_cost_cents": 700
+  },
+  {
+    "id": "EM-CAP",
+    "name": "Embroidered Cap",
+    "department_id": "theu",
+    "base_price_cents": 1500,
+    "base_cost_cents": 900
+  },
+  {
+    "id": "EM-PATCH",
+    "name": "Embroidered Patch",
+    "department_id": "theu",
+    "base_price_cents": 800,
+    "base_cost_cents": 400
+  },
+  {
+    "id": "EM-SWEATER",
+    "name": "Embroidered Sweatshirt",
+    "department_id": "theu",
+    "base_price_cents": 2400,
+    "base_cost_cents": 1500
+  }
+]

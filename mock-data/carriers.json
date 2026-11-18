@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CAR-USPS",
+    "name": "USPS"
+  },
+  {
+    "id": "CAR-UPS",
+    "name": "UPS"
+  },
+  {
+    "id": "CAR-DHL",
+    "name": "DHL eCommerce"
+  },
+  {
+    "id": "CAR-ONOS",
+    "name": "OnosExpress"
+  }
+]

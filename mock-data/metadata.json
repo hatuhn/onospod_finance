@@ -1,0 +1,17 @@
+{
+  "dataset_id": "onospod-finance-sample-2026-11-v1",
+  "source_reference": "onospod_finance_v214_reference.html",
+  "description": "Synthetic illustrative dataset for a frontend-only Next.js prototype. No live Onospod financial information.",
+  "as_of_date": "2026-11-17",
+  "timezone": "Asia/Bangkok",
+  "currency": "USD",
+  "money_unit": "integer_cents",
+  "default_date_filter": "this_month",
+  "default_locale": "en",
+  "locales": [
+    "en",
+    "vi"
+  ],
+  "fixed_snapshot": true,
+  "readme": "Use the repository interface in ONOSPOD_FINANCE_NEXTJS_SPEC.md. Never connect backend during phase one."
+}

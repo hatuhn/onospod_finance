@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "ON-11001",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-01",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 1509,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0001-1",
+      "OI-0001-2"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11005",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-005"
+    ],
+    "total_charge_cents": 19880,
+    "total_direct_cost_cents": 12123,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0005-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0005-1"
+    ]
+  },
+  {
+    "id": "ON-11009",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-009"
+    ],
+    "total_charge_cents": 18257,
+    "total_direct_cost_cents": 11444,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0009-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0009-1"
+    ]
+  },
+  {
+    "id": "ON-11013",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 15434,
+    "total_direct_cost_cents": 9054,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0013-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0013-1"
+    ]
+  },
+  {
+    "id": "ON-11017",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 2611,
+    "total_direct_cost_cents": 1925,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0017-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0017-1"
+    ]
+  },
+  {
+    "id": "ON-11021",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-007"
+    ],
+    "total_charge_cents": 38775,
+    "total_direct_cost_cents": 24381,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0021-1",
+      "OI-0021-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0021-1",
+      "SHIP-0021-2"
+    ]
+  },
+  {
+    "id": "ON-11025",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-011"
+    ],
+    "total_charge_cents": 25565,
+    "total_direct_cost_cents": 15126,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0025-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0025-1"
+    ]
+  },
+  {
+    "id": "ON-11029",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 12842,
+    "total_direct_cost_cents": 8497,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0029-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0029-1"
+    ]
+  },
+  {
+    "id": "ON-11033",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 3119,
+    "total_direct_cost_cents": 2018,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0033-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0033-1"
+    ]
+  },
+  {
+    "id": "ON-11037",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-009"
+    ],
+    "total_charge_cents": 26071,
+    "total_direct_cost_cents": 15228,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0037-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0037-1"
+    ]
+  },
+  {
+    "id": "ON-11002",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 21679,
+    "total_direct_cost_cents": 14570,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0002-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0002-1"
+    ]
+  },
+  {
+    "id": "ON-11006",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 28336,
+    "total_direct_cost_cents": 17921,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0006-1",
+      "OI-0006-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0006-1",
+      "SHIP-0006-2"
+    ]
+  },
+  {
+    "id": "ON-11010",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-015"
+    ],
+    "total_charge_cents": 29733,
+    "total_direct_cost_cents": 17421,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0010-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0010-1"
+    ]
+  },
+  {
+    "id": "ON-11014",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-003"
+    ],
+    "total_charge_cents": 24610,
+    "total_direct_cost_cents": 15242,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0014-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0014-1"
+    ]
+  },
+  {
+    "id": "ON-11018",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-08",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-007"
+    ],
+    "total_charge_cents": 28687,
+    "total_direct_cost_cents": 17213,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0018-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0018-1"
+    ]
+  },
+  {
+    "id": "ON-11022",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 7264,
+    "total_direct_cost_cents": 4523,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0022-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0022-1"
+    ]
+  },
+  {
+    "id": "ON-11026",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 15906,
+    "total_direct_cost_cents": 9788,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0026-1",
+      "OI-0026-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0026-1",
+      "SHIP-0026-2"
+    ]
+  },
+  {
+    "id": "ON-11030",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-005"
+    ],
+    "total_charge_cents": 37918,
+    "total_direct_cost_cents": 22185,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0030-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0030-1"
+    ]
+  },
+  {
+    "id": "ON-11034",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-009"
+    ],
+    "total_charge_cents": 19695,
+    "total_direct_cost_cents": 12795,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0034-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0034-1"
+    ]
+  },
+  {
+    "id": "ON-11038",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 7472,
+    "total_direct_cost_cents": 4316,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0038-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0038-1"
+    ]
+  },
+  {
+    "id": "ON-11003",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-011"
+    ],
+    "total_charge_cents": 38855,
+    "total_direct_cost_cents": 22958,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0003-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0003-1"
+    ]
+  },
+  {
+    "id": "ON-11007",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-015"
+    ],
+    "total_charge_cents": 23732,
+    "total_direct_cost_cents": 15268,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0007-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0007-1"
+    ]
+  },
+  {
+    "id": "ON-11011",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 31542,
+    "total_direct_cost_cents": 18478,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0011-1",
+      "OI-0011-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0011-1",
+      "SHIP-0011-2"
+    ]
+  },
+  {
+    "id": "ON-11015",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 6511,
+    "total_direct_cost_cents": 4030,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0015-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0015-1"
+    ]
+  },
+  {
+    "id": "ON-11019",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-013"
+    ],
+    "total_charge_cents": 42963,
+    "total_direct_cost_cents": 28640,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0019-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0019-1"
+    ]
+  },
+  {
+    "id": "ON-11023",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-001"
+    ],
+    "total_charge_cents": 39540,
+    "total_direct_cost_cents": 23511,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0023-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0023-1"
+    ]
+  },
+  {
+    "id": "ON-11027",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-005"
+    ],
+    "total_charge_cents": 12117,
+    "total_direct_cost_cents": 7432,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0027-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0027-1"
+    ]
+  },
+  {
+    "id": "ON-11031",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 32912,
+    "total_direct_cost_cents": 19484,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0031-1",
+      "OI-0031-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0031-1",
+      "SHIP-0031-2"
+    ]
+  },
+  {
+    "id": "ON-11035",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-15",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 47271,
+    "total_direct_cost_cents": 27483,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0035-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0035-1"
+    ]
+  },
+  {
+    "id": "ON-11039",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-003"
+    ],
+    "total_charge_cents": 20848,
+    "total_direct_cost_cents": 13404,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0039-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0039-1"
+    ]
+  },
+  {
+    "id": "ON-11004",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 14756,
+    "total_direct_cost_cents": 9335,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0004-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0004-1"
+    ]
+  },
+  {
+    "id": "ON-11008",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 6233,
+    "total_direct_cost_cents": 3756,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0008-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0008-1"
+    ]
+  },
+  {
+    "id": "ON-11012",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-009"
+    ],
+    "total_charge_cents": 30585,
+    "total_direct_cost_cents": 19827,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0012-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0012-1"
+    ]
+  },
+  {
+    "id": "ON-11016",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-013"
+    ],
+    "total_charge_cents": 41596,
+    "total_direct_cost_cents": 24074,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0016-1",
+      "OI-0016-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0016-1",
+      "SHIP-0016-2"
+    ]
+  },
+  {
+    "id": "ON-11020",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 17364,
+    "total_direct_cost_cents": 10328,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0020-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0020-1"
+    ]
+  },
+  {
+    "id": "ON-11024",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-22",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 0,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0024-1"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11028",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-011"
+    ],
+    "total_charge_cents": 57293,
+    "total_direct_cost_cents": 36709,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0028-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0028-1"
+    ]
+  },
+  {
+    "id": "ON-11032",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-015"
+    ],
+    "total_charge_cents": 20370,
+    "total_direct_cost_cents": 11930,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0032-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0032-1"
+    ]
+  },
+  {
+    "id": "ON-11036",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-08-CUS-003"
+    ],
+    "total_charge_cents": 48466,
+    "total_direct_cost_cents": 28841,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0036-1",
+      "OI-0036-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0036-1",
+      "SHIP-0036-2"
+    ]
+  },
+  {
+    "id": "ON-11040",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-08-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 11549,
+    "total_direct_cost_cents": 6981,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0040-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0040-1"
+    ]
+  },
+  {
+    "id": "ON-11041",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-013"
+    ],
+    "total_charge_cents": 78920,
+    "total_direct_cost_cents": 49198,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0041-1",
+      "OI-0041-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0041-1",
+      "SHIP-0041-2"
+    ]
+  },
+  {
+    "id": "ON-11045",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-001"
+    ],
+    "total_charge_cents": 22250,
+    "total_direct_cost_cents": 13390,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0045-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0045-1"
+    ]
+  },
+  {
+    "id": "ON-11049",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 4427,
+    "total_direct_cost_cents": 2800,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0049-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0049-1"
+    ]
+  },
+  {
+    "id": "ON-11053",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 29579,
+    "total_direct_cost_cents": 18371,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0053-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0053-1"
+    ]
+  },
+  {
+    "id": "ON-11057",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-015"
+    ],
+    "total_charge_cents": 32156,
+    "total_direct_cost_cents": 18792,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0057-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0057-1"
+    ]
+  },
+  {
+    "id": "ON-11061",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-003"
+    ],
+    "total_charge_cents": 28190,
+    "total_direct_cost_cents": 16804,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0061-1",
+      "OI-0061-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0061-1",
+      "SHIP-0061-2"
+    ]
+  },
+  {
+    "id": "ON-11065",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 8435,
+    "total_direct_cost_cents": 5543,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0065-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0065-1"
+    ]
+  },
+  {
+    "id": "ON-11069",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-01",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 40487,
+    "total_direct_cost_cents": 23964,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0069-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0069-1"
+    ]
+  },
+  {
+    "id": "ON-11073",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-001"
+    ],
+    "total_charge_cents": 25064,
+    "total_direct_cost_cents": 16174,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0073-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0073-1"
+    ]
+  },
+  {
+    "id": "ON-11077",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-005"
+    ],
+    "total_charge_cents": 10841,
+    "total_direct_cost_cents": 6245,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0077-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0077-1"
+    ]
+  },
+  {
+    "id": "ON-11042",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 3849,
+    "total_direct_cost_cents": 2587,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0042-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0042-1"
+    ]
+  },
+  {
+    "id": "ON-11046",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-007"
+    ],
+    "total_charge_cents": 44551,
+    "total_direct_cost_cents": 29494,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0046-1",
+      "OI-0046-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0046-1",
+      "SHIP-0046-2"
+    ]
+  },
+  {
+    "id": "ON-11050",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-011"
+    ],
+    "total_charge_cents": 37603,
+    "total_direct_cost_cents": 24188,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0050-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0050-1"
+    ]
+  },
+  {
+    "id": "ON-11054",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-015"
+    ],
+    "total_charge_cents": 11080,
+    "total_direct_cost_cents": 6759,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0054-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0054-1"
+    ]
+  },
+  {
+    "id": "ON-11058",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 4357,
+    "total_direct_cost_cents": 2869,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0058-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0058-1"
+    ]
+  },
+  {
+    "id": "ON-11062",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 48109,
+    "total_direct_cost_cents": 28490,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0062-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0062-1"
+    ]
+  },
+  {
+    "id": "ON-11066",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-013"
+    ],
+    "total_charge_cents": 52396,
+    "total_direct_cost_cents": 32561,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0066-1",
+      "OI-0066-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0066-1",
+      "SHIP-0066-2"
+    ]
+  },
+  {
+    "id": "ON-11070",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-08",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 0,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0070-1"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11074",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 8065,
+    "total_direct_cost_cents": 4862,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0074-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0074-1"
+    ]
+  },
+  {
+    "id": "ON-11078",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 31917,
+    "total_direct_cost_cents": 20733,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0078-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0078-1"
+    ]
+  },
+  {
+    "id": "ON-11043",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-007"
+    ],
+    "total_charge_cents": 20925,
+    "total_direct_cost_cents": 13114,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0043-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0043-1"
+    ]
+  },
+  {
+    "id": "ON-11047",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-15",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 1584,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0047-1"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11051",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 22182,
+    "total_direct_cost_cents": 14501,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0051-1",
+      "OI-0051-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0051-1",
+      "SHIP-0051-2"
+    ]
+  },
+  {
+    "id": "ON-11055",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-005"
+    ],
+    "total_charge_cents": 17956,
+    "total_direct_cost_cents": 9986,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0055-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0055-1"
+    ]
+  },
+  {
+    "id": "ON-11059",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-009"
+    ],
+    "total_charge_cents": 16933,
+    "total_direct_cost_cents": 10057,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0059-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0059-1"
+    ]
+  },
+  {
+    "id": "ON-11063",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-013"
+    ],
+    "total_charge_cents": 14710,
+    "total_direct_cost_cents": 9978,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0063-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0063-1"
+    ]
+  },
+  {
+    "id": "ON-11067",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 4887,
+    "total_direct_cost_cents": 2988,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0067-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0067-1"
+    ]
+  },
+  {
+    "id": "ON-11071",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 26027,
+    "total_direct_cost_cents": 16118,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0071-1",
+      "OI-0071-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0071-1",
+      "SHIP-0071-2"
+    ]
+  },
+  {
+    "id": "ON-11075",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-011"
+    ],
+    "total_charge_cents": 19641,
+    "total_direct_cost_cents": 12250,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0075-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0075-1"
+    ]
+  },
+  {
+    "id": "ON-11079",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-015"
+    ],
+    "total_charge_cents": 17418,
+    "total_direct_cost_cents": 10160,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0079-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0079-1"
+    ]
+  },
+  {
+    "id": "ON-11044",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 23801,
+    "total_direct_cost_cents": 14302,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0044-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0044-1"
+    ]
+  },
+  {
+    "id": "ON-11048",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-001"
+    ],
+    "total_charge_cents": 28778,
+    "total_direct_cost_cents": 18173,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0048-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0048-1"
+    ]
+  },
+  {
+    "id": "ON-11052",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-22",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-005"
+    ],
+    "total_charge_cents": 22955,
+    "total_direct_cost_cents": 13383,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0052-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0052-1"
+    ]
+  },
+  {
+    "id": "ON-11056",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 41236,
+    "total_direct_cost_cents": 26708,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0056-1",
+      "OI-0056-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0056-1",
+      "SHIP-0056-2"
+    ]
+  },
+  {
+    "id": "ON-11060",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 22309,
+    "total_direct_cost_cents": 12545,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0060-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0060-1"
+    ]
+  },
+  {
+    "id": "ON-11064",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-003"
+    ],
+    "total_charge_cents": 32286,
+    "total_direct_cost_cents": 19055,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0064-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0064-1"
+    ]
+  },
+  {
+    "id": "ON-11068",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-007"
+    ],
+    "total_charge_cents": 23563,
+    "total_direct_cost_cents": 15776,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0068-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0068-1"
+    ]
+  },
+  {
+    "id": "ON-11072",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-09-CUS-011"
+    ],
+    "total_charge_cents": 17840,
+    "total_direct_cost_cents": 11647,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0072-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0072-1"
+    ]
+  },
+  {
+    "id": "ON-11076",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 12306,
+    "total_direct_cost_cents": 7914,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0076-1",
+      "OI-0076-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0076-1",
+      "SHIP-0076-2"
+    ]
+  },
+  {
+    "id": "ON-11080",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-09-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 25994,
+    "total_direct_cost_cents": 16048,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0080-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0080-1"
+    ]
+  },
+  {
+    "id": "ON-11081",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-009"
+    ],
+    "total_charge_cents": 24360,
+    "total_direct_cost_cents": 15121,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0081-1",
+      "OI-0081-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0081-1",
+      "SHIP-0081-2"
+    ]
+  },
+  {
+    "id": "ON-11085",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 44695,
+    "total_direct_cost_cents": 29846,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0085-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0085-1"
+    ]
+  },
+  {
+    "id": "ON-11089",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 41672,
+    "total_direct_cost_cents": 24817,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0089-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0089-1"
+    ]
+  },
+  {
+    "id": "ON-11093",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-01",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 1643,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0093-1"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11097",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-011"
+    ],
+    "total_charge_cents": 9326,
+    "total_direct_cost_cents": 5848,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0097-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0097-1"
+    ]
+  },
+  {
+    "id": "ON-11101",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 13730,
+    "total_direct_cost_cents": 9238,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0101-1",
+      "OI-0101-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0101-1",
+      "SHIP-0101-2"
+    ]
+  },
+  {
+    "id": "ON-11105",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 21880,
+    "total_direct_cost_cents": 14110,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0105-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0105-1"
+    ]
+  },
+  {
+    "id": "ON-11109",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-009"
+    ],
+    "total_charge_cents": 22457,
+    "total_direct_cost_cents": 14120,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0109-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0109-1"
+    ]
+  },
+  {
+    "id": "ON-11113",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-013"
+    ],
+    "total_charge_cents": 13834,
+    "total_direct_cost_cents": 8391,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0113-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0113-1"
+    ]
+  },
+  {
+    "id": "ON-11117",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-01",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-001"
+    ],
+    "total_charge_cents": 3211,
+    "total_direct_cost_cents": 2312,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0117-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0117-1"
+    ]
+  },
+  {
+    "id": "ON-11082",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-015"
+    ],
+    "total_charge_cents": 15194,
+    "total_direct_cost_cents": 8543,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0082-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0082-1"
+    ]
+  },
+  {
+    "id": "ON-11086",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-08",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-003"
+    ],
+    "total_charge_cents": 51066,
+    "total_direct_cost_cents": 32828,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0086-1",
+      "OI-0086-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0086-1",
+      "SHIP-0086-2"
+    ]
+  },
+  {
+    "id": "ON-11090",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-007"
+    ],
+    "total_charge_cents": 9473,
+    "total_direct_cost_cents": 6605,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0090-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0090-1"
+    ]
+  },
+  {
+    "id": "ON-11094",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 59725,
+    "total_direct_cost_cents": 38315,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0094-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0094-1"
+    ]
+  },
+  {
+    "id": "ON-11098",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 21502,
+    "total_direct_cost_cents": 12636,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0098-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0098-1"
+    ]
+  },
+  {
+    "id": "ON-11102",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-005"
+    ],
+    "total_charge_cents": 15679,
+    "total_direct_cost_cents": 9907,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0102-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0102-1"
+    ]
+  },
+  {
+    "id": "ON-11106",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-009"
+    ],
+    "total_charge_cents": 27836,
+    "total_direct_cost_cents": 17434,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0106-1",
+      "OI-0106-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0106-1",
+      "SHIP-0106-2"
+    ]
+  },
+  {
+    "id": "ON-11110",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 24733,
+    "total_direct_cost_cents": 14908,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0110-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0110-1"
+    ]
+  },
+  {
+    "id": "ON-11114",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 30310,
+    "total_direct_cost_cents": 19179,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0114-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0114-1"
+    ]
+  },
+  {
+    "id": "ON-11118",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-007"
+    ],
+    "total_charge_cents": 24787,
+    "total_direct_cost_cents": 14489,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0118-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0118-1"
+    ]
+  },
+  {
+    "id": "ON-11083",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 3795,
+    "total_direct_cost_cents": 2631,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0083-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0083-1"
+    ]
+  },
+  {
+    "id": "ON-11087",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 34947,
+    "total_direct_cost_cents": 21952,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0087-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0087-1"
+    ]
+  },
+  {
+    "id": "ON-11091",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-013"
+    ],
+    "total_charge_cents": 68272,
+    "total_direct_cost_cents": 43424,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0091-1",
+      "OI-0091-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0091-1",
+      "SHIP-0091-2"
+    ]
+  },
+  {
+    "id": "ON-11095",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-001"
+    ],
+    "total_charge_cents": 14326,
+    "total_direct_cost_cents": 9403,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0095-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0095-1"
+    ]
+  },
+  {
+    "id": "ON-11099",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-005"
+    ],
+    "total_charge_cents": 4103,
+    "total_direct_cost_cents": 2524,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0099-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0099-1"
+    ]
+  },
+  {
+    "id": "ON-11103",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-15",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 27355,
+    "total_direct_cost_cents": 15934,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0103-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0103-1"
+    ]
+  },
+  {
+    "id": "ON-11107",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 30532,
+    "total_direct_cost_cents": 20505,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0107-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0107-1"
+    ]
+  },
+  {
+    "id": "ON-11111",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-003"
+    ],
+    "total_charge_cents": 44042,
+    "total_direct_cost_cents": 27141,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0111-1",
+      "OI-0111-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0111-1",
+      "SHIP-0111-2"
+    ]
+  },
+  {
+    "id": "ON-11115",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-007"
+    ],
+    "total_charge_cents": 5511,
+    "total_direct_cost_cents": 3406,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0115-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0115-1"
+    ]
+  },
+  {
+    "id": "ON-11119",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 30963,
+    "total_direct_cost_cents": 19177,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0119-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0119-1"
+    ]
+  },
+  {
+    "id": "ON-11084",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-009"
+    ],
+    "total_charge_cents": 30971,
+    "total_direct_cost_cents": 18519,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0084-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0084-1"
+    ]
+  },
+  {
+    "id": "ON-11088",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-013"
+    ],
+    "total_charge_cents": 8348,
+    "total_direct_cost_cents": 5129,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0088-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0088-1"
+    ]
+  },
+  {
+    "id": "ON-11092",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 3725,
+    "total_direct_cost_cents": 2450,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0092-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0092-1"
+    ]
+  },
+  {
+    "id": "ON-11096",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 44251,
+    "total_direct_cost_cents": 26181,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0096-1",
+      "OI-0096-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0096-1",
+      "SHIP-0096-2"
+    ]
+  },
+  {
+    "id": "ON-11100",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-011"
+    ],
+    "total_charge_cents": 21179,
+    "total_direct_cost_cents": 13701,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0100-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0100-1"
+    ]
+  },
+  {
+    "id": "ON-11104",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-015"
+    ],
+    "total_charge_cents": 8456,
+    "total_direct_cost_cents": 4822,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0104-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0104-1"
+    ]
+  },
+  {
+    "id": "ON-11108",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-003"
+    ],
+    "total_charge_cents": 5633,
+    "total_direct_cost_cents": 3593,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0108-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0108-1"
+    ]
+  },
+  {
+    "id": "ON-11112",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-22",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 39385,
+    "total_direct_cost_cents": 26303,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0112-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0112-1"
+    ]
+  },
+  {
+    "id": "ON-11116",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-10-22",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 0,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0116-1",
+      "OI-0116-2"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11120",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-10-22",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-10-CUS-001"
+    ],
+    "total_charge_cents": 12364,
+    "total_direct_cost_cents": 7465,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0120-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0120-1"
+    ]
+  },
+  {
+    "id": "ON-11137",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-01",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 21671,
+    "total_direct_cost_cents": 13165,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0137-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0137-1"
+    ]
+  },
+  {
+    "id": "ON-11154",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-01",
+    "status": "in_production",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-015"
+    ],
+    "total_charge_cents": 9280,
+    "total_direct_cost_cents": 5735,
+    "cost_status": "estimated",
+    "order_item_ids": [
+      "OI-0154-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0154-1"
+    ]
+  },
+  {
+    "id": "ON-11125",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-02",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 18065,
+    "total_direct_cost_cents": 10763,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0125-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0125-1"
+    ]
+  },
+  {
+    "id": "ON-11142",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-02",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-001"
+    ],
+    "total_charge_cents": 2849,
+    "total_direct_cost_cents": 1863,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0142-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0142-1"
+    ]
+  },
+  {
+    "id": "ON-11159",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-02",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 14133,
+    "total_direct_cost_cents": 8644,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0159-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0159-1"
+    ]
+  },
+  {
+    "id": "ON-11130",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-03",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 33918,
+    "total_direct_cost_cents": 20061,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0130-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0130-1"
+    ]
+  },
+  {
+    "id": "ON-11147",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-03",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-011"
+    ],
+    "total_charge_cents": 8702,
+    "total_direct_cost_cents": 5272,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0147-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0147-1"
+    ]
+  },
+  {
+    "id": "ON-11135",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-04",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-013"
+    ],
+    "total_charge_cents": 42271,
+    "total_direct_cost_cents": 24970,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0135-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0135-1"
+    ]
+  },
+  {
+    "id": "ON-11152",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-04",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 20555,
+    "total_direct_cost_cents": 12170,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0152-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0152-1"
+    ]
+  },
+  {
+    "id": "ON-11123",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-05",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 34140,
+    "total_direct_cost_cents": 19898,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0123-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0123-1"
+    ]
+  },
+  {
+    "id": "ON-11140",
+    "customer_id": "CUS-007",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-05",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-007"
+    ],
+    "total_charge_cents": 10049,
+    "total_direct_cost_cents": 5968,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0140-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0140-1"
+    ]
+  },
+  {
+    "id": "ON-11157",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-05",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 28756,
+    "total_direct_cost_cents": 16968,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0157-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0157-1"
+    ]
+  },
+  {
+    "id": "ON-11128",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-06",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 50393,
+    "total_direct_cost_cents": 29796,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0128-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0128-1"
+    ]
+  },
+  {
+    "id": "ON-11145",
+    "customer_id": "CUS-001",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-06",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-001"
+    ],
+    "total_charge_cents": 19250,
+    "total_direct_cost_cents": 11266,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0145-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0145-1"
+    ]
+  },
+  {
+    "id": "ON-11133",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-07",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-003"
+    ],
+    "total_charge_cents": 7019,
+    "total_direct_cost_cents": 4294,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0133-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0133-1"
+    ]
+  },
+  {
+    "id": "ON-11150",
+    "customer_id": "CUS-010",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-07",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 33103,
+    "total_direct_cost_cents": 19825,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0150-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0150-1"
+    ]
+  },
+  {
+    "id": "ON-11121",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 22575,
+    "total_direct_cost_cents": 12844,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0121-1",
+      "OI-0121-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0121-1",
+      "SHIP-0121-2"
+    ]
+  },
+  {
+    "id": "ON-11138",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-013"
+    ],
+    "total_charge_cents": 20272,
+    "total_direct_cost_cents": 13253,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0138-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0138-1"
+    ]
+  },
+  {
+    "id": "ON-11155",
+    "customer_id": "CUS-004",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-08",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 43956,
+    "total_direct_cost_cents": 26123,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0155-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0155-1"
+    ]
+  },
+  {
+    "id": "ON-11126",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-09",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-015"
+    ],
+    "total_charge_cents": 11206,
+    "total_direct_cost_cents": 6901,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0126-1",
+      "OI-0126-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0126-1",
+      "SHIP-0126-2"
+    ]
+  },
+  {
+    "id": "ON-11143",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-09",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 11825,
+    "total_direct_cost_cents": 6751,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0143-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0143-1"
+    ]
+  },
+  {
+    "id": "ON-11160",
+    "customer_id": "CUS-013",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-09",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-013"
+    ],
+    "total_charge_cents": 62309,
+    "total_direct_cost_cents": 39921,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0160-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0160-1"
+    ]
+  },
+  {
+    "id": "ON-11131",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-10",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-009"
+    ],
+    "total_charge_cents": 32112,
+    "total_direct_cost_cents": 19658,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0131-1",
+      "OI-0131-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0131-1",
+      "SHIP-0131-2"
+    ]
+  },
+  {
+    "id": "ON-11148",
+    "customer_id": "CUS-016",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-10",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 16178,
+    "total_direct_cost_cents": 9049,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0148-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0148-1"
+    ]
+  },
+  {
+    "id": "ON-11136",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-11",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-003"
+    ],
+    "total_charge_cents": 48166,
+    "total_direct_cost_cents": 29254,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0136-1",
+      "OI-0136-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0136-1",
+      "SHIP-0136-2"
+    ]
+  },
+  {
+    "id": "ON-11153",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-11",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-009"
+    ],
+    "total_charge_cents": 36479,
+    "total_direct_cost_cents": 22958,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0153-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0153-1"
+    ]
+  },
+  {
+    "id": "ON-11124",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-12",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-005"
+    ],
+    "total_charge_cents": 5741,
+    "total_direct_cost_cents": 3675,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0124-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0124-1"
+    ]
+  },
+  {
+    "id": "ON-11141",
+    "customer_id": "CUS-012",
+    "customer_tier_at_order": "Partner VIP 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-12",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 64020,
+    "total_direct_cost_cents": 38061,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0141-1",
+      "OI-0141-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0141-1",
+      "SHIP-0141-2"
+    ]
+  },
+  {
+    "id": "ON-11158",
+    "customer_id": "CUS-003",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-12",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-003"
+    ],
+    "total_charge_cents": 5257,
+    "total_direct_cost_cents": 3456,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0158-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0158-1"
+    ]
+  },
+  {
+    "id": "ON-11129",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-13",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-015"
+    ],
+    "total_charge_cents": 16442,
+    "total_direct_cost_cents": 11184,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0129-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0129-1"
+    ]
+  },
+  {
+    "id": "ON-11146",
+    "customer_id": "CUS-006",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-13",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 33151,
+    "total_direct_cost_cents": 20468,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0146-1",
+      "OI-0146-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0146-1",
+      "SHIP-0146-2"
+    ]
+  },
+  {
+    "id": "ON-11134",
+    "customer_id": "CUS-008",
+    "customer_tier_at_order": "Seller VIP 4",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-14",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 25295,
+    "total_direct_cost_cents": 16982,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0134-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0134-1"
+    ]
+  },
+  {
+    "id": "ON-11151",
+    "customer_id": "CUS-015",
+    "customer_tier_at_order": "Seller VIP 3",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-14",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-015"
+    ],
+    "total_charge_cents": 20182,
+    "total_direct_cost_cents": 12264,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0151-1",
+      "OI-0151-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0151-1",
+      "SHIP-0151-2"
+    ]
+  },
+  {
+    "id": "ON-11122",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-011"
+    ],
+    "total_charge_cents": 10064,
+    "total_direct_cost_cents": 6610,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0122-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0122-1"
+    ]
+  },
+  {
+    "id": "ON-11139",
+    "customer_id": "CUS-002",
+    "customer_tier_at_order": "Super 1",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-15",
+    "status": "cancelled",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 0,
+    "total_direct_cost_cents": 3800,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0139-1"
+    ],
+    "shipment_ids": []
+  },
+  {
+    "id": "ON-11156",
+    "customer_id": "CUS-009",
+    "customer_tier_at_order": "Super 0",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-15",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-009"
+    ],
+    "total_charge_cents": 39736,
+    "total_direct_cost_cents": 24621,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0156-1",
+      "OI-0156-2"
+    ],
+    "shipment_ids": [
+      "SHIP-0156-1",
+      "SHIP-0156-2"
+    ]
+  },
+  {
+    "id": "ON-11127",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-16",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-005"
+    ],
+    "total_charge_cents": 13317,
+    "total_direct_cost_cents": 8508,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0127-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0127-1"
+    ]
+  },
+  {
+    "id": "ON-11144",
+    "customer_id": "CUS-011",
+    "customer_tier_at_order": "Super 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-16",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-011"
+    ],
+    "total_charge_cents": 33401,
+    "total_direct_cost_cents": 21639,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0144-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0144-1"
+    ]
+  },
+  {
+    "id": "ON-11132",
+    "customer_id": "CUS-014",
+    "customer_tier_at_order": "Partner VIP 3",
+    "account_type_at_order": "prepaid",
+    "account_manager_id": "USR-08",
+    "created_at": "2026-11-17",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [],
+    "total_charge_cents": 16970,
+    "total_direct_cost_cents": 10367,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0132-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0132-1"
+    ]
+  },
+  {
+    "id": "ON-11149",
+    "customer_id": "CUS-005",
+    "customer_tier_at_order": "Partner VIP 2",
+    "account_type_at_order": "debit",
+    "account_manager_id": "USR-07",
+    "created_at": "2026-11-17",
+    "status": "completed",
+    "currency": "USD",
+    "invoice_ids": [
+      "INV-2026-11-CUS-005"
+    ],
+    "total_charge_cents": 4827,
+    "total_direct_cost_cents": 3337,
+    "cost_status": "actual",
+    "order_item_ids": [
+      "OI-0149-1"
+    ],
+    "shipment_ids": [
+      "SHIP-0149-1"
+    ]
+  }
+]

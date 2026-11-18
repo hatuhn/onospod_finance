@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "customers": [
+    {
+      "id": "PC-001",
+      "custom_sku": "NORTH",
+      "name": "Northstar Commerce",
+      "email": "northstar@example.test",
+      "phone": "+1 555 0101",
+      "company": "Northstar LLC",
+      "notes": "Demo partnership account",
+      "created_at": "2026-11-01T09:00:00+07:00",
+      "actor": "Minh Tran",
+      "level": "Standard"
+    },
+    {
+      "id": "PC-002",
+      "custom_sku": "URBAN",
+      "name": "Urban Seller",
+      "email": "urban@example.test",
+      "phone": "+1 555 0102",
+      "company": "Urban Studio",
+      "notes": "",
+      "created_at": "2026-11-02T09:00:00+07:00",
+      "actor": "Minh Tran",
+      "level": "Gold"
+    },
+    {
+      "id": "PC-003",
+      "custom_sku": "OLIVE",
+      "name": "Olive Marketplace",
+      "email": "olive@example.test",
+      "phone": "+1 555 0103",
+      "company": "Olive Goods",
+      "notes": "",
+      "created_at": "2026-11-03T09:00:00+07:00",
+      "actor": "Minh Tran",
+      "level": "Diamond"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "PCT-001",
+      "customer_id": "PC-001",
+      "title": "Onos resource partnership 1",
+      "start_date": "2026-11-01",
+      "end_date": "2027-10-31",
+      "resources": [
+        "production",
+        "shipping"
+      ],
+      "monthly_fee_cents": 25000,
+      "status": "active",
+      "terms": "Demo agreement. Fees and service scope are recorded for review.",
+      "created_at": "2026-11-01T09:00:00+07:00",
+      "updated_at": "2026-11-01T09:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCT-002",
+      "customer_id": "PC-002",
+      "title": "Onos resource partnership 2",
+      "start_date": "2026-11-01",
+      "end_date": "2027-10-31",
+      "resources": [
+        "shipping",
+        "warehouse"
+      ],
+      "monthly_fee_cents": 18000,
+      "status": "active",
+      "terms": "Demo agreement. Fees and service scope are recorded for review.",
+      "created_at": "2026-11-01T09:00:00+07:00",
+      "updated_at": "2026-11-01T09:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCT-003",
+      "customer_id": "PC-003",
+      "title": "Onos resource partnership 3",
+      "start_date": "2026-11-01",
+      "end_date": "2027-10-31",
+      "resources": [
+        "production",
+        "warehouse",
+        "team"
+      ],
+      "monthly_fee_cents": 35000,
+      "status": "draft",
+      "terms": "Demo agreement. Fees and service scope are recorded for review.",
+      "created_at": "2026-11-01T09:00:00+07:00",
+      "updated_at": "2026-11-01T09:00:00+07:00",
+      "actor": "Minh Tran"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "PCF-001",
+      "customer_id": "PC-001",
+      "contract_id": "PCT-001",
+      "date": "2026-11-03",
+      "direction": "income",
+      "category": "sales",
+      "amount_cents": 420000,
+      "reference": "DEMO-REF-001",
+      "notes": "",
+      "created_at": "2026-11-03T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-002",
+      "customer_id": "PC-001",
+      "contract_id": "PCT-001",
+      "date": "2026-11-05",
+      "direction": "expense",
+      "category": "production",
+      "amount_cents": 210000,
+      "reference": "DEMO-REF-002",
+      "notes": "",
+      "created_at": "2026-11-05T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-003",
+      "customer_id": "PC-001",
+      "contract_id": "PCT-001",
+      "date": "2026-11-08",
+      "direction": "expense",
+      "category": "shipping",
+      "amount_cents": 55000,
+      "reference": "DEMO-REF-003",
+      "notes": "",
+      "created_at": "2026-11-08T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-004",
+      "customer_id": "PC-002",
+      "contract_id": "PCT-002",
+      "date": "2026-11-04",
+      "direction": "income",
+      "category": "sales",
+      "amount_cents": 280000,
+      "reference": "DEMO-REF-004",
+      "notes": "",
+      "created_at": "2026-11-04T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-005",
+      "customer_id": "PC-002",
+      "contract_id": "PCT-002",
+      "date": "2026-11-10",
+      "direction": "expense",
+      "category": "shipping",
+      "amount_cents": 45000,
+      "reference": "DEMO-REF-005",
+      "notes": "",
+      "created_at": "2026-11-10T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-006",
+      "customer_id": "PC-002",
+      "contract_id": "PCT-002",
+      "date": "2026-11-12",
+      "direction": "expense",
+      "category": "warehouse",
+      "amount_cents": 18000,
+      "reference": "DEMO-REF-006",
+      "notes": "",
+      "created_at": "2026-11-12T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-007",
+      "customer_id": "PC-003",
+      "contract_id": "PCT-003",
+      "date": "2026-11-14",
+      "direction": "income",
+      "category": "sales",
+      "amount_cents": 190000,
+      "reference": "DEMO-REF-007",
+      "notes": "",
+      "created_at": "2026-11-14T10:00:00+07:00",
+      "actor": "Minh Tran"
+    },
+    {
+      "id": "PCF-008",
+      "customer_id": "PC-003",
+      "contract_id": "PCT-003",
+      "date": "2026-11-16",
+      "direction": "expense",
+      "category": "production",
+      "amount_cents": 95000,
+      "reference": "DEMO-REF-008",
+      "notes": "",
+      "created_at": "2026-11-16T10:00:00+07:00",
+      "actor": "Minh Tran"
+    }
+  ]
+}

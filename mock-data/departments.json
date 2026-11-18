@@ -1,0 +1,26 @@
+[
+  {
+    "id": "may_mac",
+    "name_vi": "May Mặc",
+    "name_en": "Apparel",
+    "chart_color": "#007AFF"
+  },
+  {
+    "id": "two_d",
+    "name_vi": "2D",
+    "name_en": "2D Printing",
+    "chart_color": "#AF52DE"
+  },
+  {
+    "id": "handmade",
+    "name_vi": "Handmade",
+    "name_en": "Handmade",
+    "chart_color": "#F59E0B"
+  },
+  {
+    "id": "theu",
+    "name_vi": "Thêu",
+    "name_en": "Embroidery",
+    "chart_color": "#16A085"
+  }
+]

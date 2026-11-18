@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PAYEE-ONOS",
+    "name": "Onos Factory"
+  },
+  {
+    "id": "PAYEE-SOUTH",
+    "name": "Onos South Factory"
+  },
+  {
+    "id": "PAYEE-CENTRAL",
+    "name": "Onos Central Factory"
+  },
+  {
+    "id": "PAYEE-PARTNER",
+    "name": "Partner Production Co."
+  }
+]

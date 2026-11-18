@@ -1,0 +1,42 @@
+[
+  {
+    "id": "USR-01",
+    "name": "Minh Tran",
+    "role": "production"
+  },
+  {
+    "id": "USR-02",
+    "name": "Mai Pham",
+    "role": "finance"
+  },
+  {
+    "id": "USR-03",
+    "name": "Linh Nguyen",
+    "role": "finance_manager"
+  },
+  {
+    "id": "USR-04",
+    "name": "Quang Le",
+    "role": "production"
+  },
+  {
+    "id": "USR-05",
+    "name": "Thu Ha",
+    "role": "production"
+  },
+  {
+    "id": "USR-06",
+    "name": "Khanh Nguyen",
+    "role": "production"
+  },
+  {
+    "id": "USR-07",
+    "name": "Vy Le",
+    "role": "account_manager"
+  },
+  {
+    "id": "USR-08",
+    "name": "Huy Pham",
+    "role": "account_manager"
+  }
+]

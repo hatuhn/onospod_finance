@@ -1,0 +1,632 @@
+[
+  {
+    "id": "INV-2026-08-CUS-001",
+    "customer_id": "CUS-001",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11023"
+    ],
+    "gross_amount_cents": 39540,
+    "refund_credit_cents": 0,
+    "paid_cents": 39540,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-001",
+    "customer_id": "CUS-001",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11045",
+      "ON-11073",
+      "ON-11048"
+    ],
+    "gross_amount_cents": 76092,
+    "refund_credit_cents": 0,
+    "paid_cents": 66051,
+    "remaining_cents": 10041,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-001",
+    "customer_id": "CUS-001",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11117",
+      "ON-11095",
+      "ON-11120"
+    ],
+    "gross_amount_cents": 29901,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 29901,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-001",
+    "customer_id": "CUS-001",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11142",
+      "ON-11145"
+    ],
+    "gross_amount_cents": 22099,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 22099,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-003",
+    "customer_id": "CUS-003",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11014",
+      "ON-11039",
+      "ON-11036"
+    ],
+    "gross_amount_cents": 93924,
+    "refund_credit_cents": 16963,
+    "paid_cents": 76961,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-003",
+    "customer_id": "CUS-003",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11061",
+      "ON-11064"
+    ],
+    "gross_amount_cents": 60476,
+    "refund_credit_cents": 35080,
+    "paid_cents": 25396,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-003",
+    "customer_id": "CUS-003",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11086",
+      "ON-11111",
+      "ON-11108"
+    ],
+    "gross_amount_cents": 100741,
+    "refund_credit_cents": 28627,
+    "paid_cents": 28643,
+    "remaining_cents": 43471,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-003",
+    "customer_id": "CUS-003",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11133",
+      "ON-11136",
+      "ON-11158"
+    ],
+    "gross_amount_cents": 60442,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 60442,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-005",
+    "customer_id": "CUS-005",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11005",
+      "ON-11030",
+      "ON-11027"
+    ],
+    "gross_amount_cents": 69915,
+    "refund_credit_cents": 4240,
+    "paid_cents": 65675,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-005",
+    "customer_id": "CUS-005",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11077",
+      "ON-11055",
+      "ON-11052"
+    ],
+    "gross_amount_cents": 51752,
+    "refund_credit_cents": 2710,
+    "paid_cents": 31358,
+    "remaining_cents": 17684,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-005",
+    "customer_id": "CUS-005",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11102",
+      "ON-11099"
+    ],
+    "gross_amount_cents": 19782,
+    "refund_credit_cents": 2666,
+    "paid_cents": 0,
+    "remaining_cents": 17116,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-005",
+    "customer_id": "CUS-005",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11124",
+      "ON-11127",
+      "ON-11149"
+    ],
+    "gross_amount_cents": 23885,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 23885,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-007",
+    "customer_id": "CUS-007",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11021",
+      "ON-11018"
+    ],
+    "gross_amount_cents": 67462,
+    "refund_credit_cents": 0,
+    "paid_cents": 67462,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-007",
+    "customer_id": "CUS-007",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11046",
+      "ON-11043",
+      "ON-11068"
+    ],
+    "gross_amount_cents": 89039,
+    "refund_credit_cents": 15592,
+    "paid_cents": 57793,
+    "remaining_cents": 15654,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-007",
+    "customer_id": "CUS-007",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11090",
+      "ON-11118",
+      "ON-11115"
+    ],
+    "gross_amount_cents": 39771,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 39771,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-007",
+    "customer_id": "CUS-007",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11140"
+    ],
+    "gross_amount_cents": 10049,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 10049,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-009",
+    "customer_id": "CUS-009",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11009",
+      "ON-11037",
+      "ON-11034",
+      "ON-11012"
+    ],
+    "gross_amount_cents": 94608,
+    "refund_credit_cents": 20215,
+    "paid_cents": 74393,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-009",
+    "customer_id": "CUS-009",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11059"
+    ],
+    "gross_amount_cents": 16933,
+    "refund_credit_cents": 0,
+    "paid_cents": 16933,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-009",
+    "customer_id": "CUS-009",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11081",
+      "ON-11109",
+      "ON-11106",
+      "ON-11084"
+    ],
+    "gross_amount_cents": 105624,
+    "refund_credit_cents": 0,
+    "paid_cents": 64902,
+    "remaining_cents": 40722,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-009",
+    "customer_id": "CUS-009",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11131",
+      "ON-11153",
+      "ON-11156"
+    ],
+    "gross_amount_cents": 108327,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 108327,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-011",
+    "customer_id": "CUS-011",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11025",
+      "ON-11003",
+      "ON-11028"
+    ],
+    "gross_amount_cents": 121713,
+    "refund_credit_cents": 84118,
+    "paid_cents": 37595,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-011",
+    "customer_id": "CUS-011",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11050",
+      "ON-11075",
+      "ON-11072"
+    ],
+    "gross_amount_cents": 75084,
+    "refund_credit_cents": 4910,
+    "paid_cents": 70174,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-011",
+    "customer_id": "CUS-011",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11097",
+      "ON-11100"
+    ],
+    "gross_amount_cents": 30505,
+    "refund_credit_cents": 0,
+    "paid_cents": 1865,
+    "remaining_cents": 28640,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-011",
+    "customer_id": "CUS-011",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11147",
+      "ON-11122",
+      "ON-11144"
+    ],
+    "gross_amount_cents": 52167,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 52167,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-013",
+    "customer_id": "CUS-013",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11019",
+      "ON-11016"
+    ],
+    "gross_amount_cents": 84559,
+    "refund_credit_cents": 0,
+    "paid_cents": 84559,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-013",
+    "customer_id": "CUS-013",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11041",
+      "ON-11066",
+      "ON-11063"
+    ],
+    "gross_amount_cents": 146026,
+    "refund_credit_cents": 0,
+    "paid_cents": 143668,
+    "remaining_cents": 2358,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-013",
+    "customer_id": "CUS-013",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11113",
+      "ON-11091",
+      "ON-11088"
+    ],
+    "gross_amount_cents": 90454,
+    "refund_credit_cents": 44376,
+    "paid_cents": 0,
+    "remaining_cents": 46078,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-013",
+    "customer_id": "CUS-013",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11135",
+      "ON-11138",
+      "ON-11160"
+    ],
+    "gross_amount_cents": 124852,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 124852,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  },
+  {
+    "id": "INV-2026-08-CUS-015",
+    "customer_id": "CUS-015",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-08",
+    "issued_at": "2026-08-31",
+    "due_at": "2026-09-15",
+    "order_ids": [
+      "ON-11010",
+      "ON-11007",
+      "ON-11032"
+    ],
+    "gross_amount_cents": 73835,
+    "refund_credit_cents": 0,
+    "paid_cents": 73835,
+    "remaining_cents": 0,
+    "status": "paid",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-09-CUS-015",
+    "customer_id": "CUS-015",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-09",
+    "issued_at": "2026-09-30",
+    "due_at": "2026-10-15",
+    "order_ids": [
+      "ON-11057",
+      "ON-11054",
+      "ON-11079"
+    ],
+    "gross_amount_cents": 60654,
+    "refund_credit_cents": 3878,
+    "paid_cents": 45749,
+    "remaining_cents": 11027,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-10-CUS-015",
+    "customer_id": "CUS-015",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-10",
+    "issued_at": "2026-10-31",
+    "due_at": "2026-11-15",
+    "order_ids": [
+      "ON-11082",
+      "ON-11104"
+    ],
+    "gross_amount_cents": 23650,
+    "refund_credit_cents": 7597,
+    "paid_cents": 0,
+    "remaining_cents": 16053,
+    "status": "overdue",
+    "created_by": "USR-02",
+    "approved_by": "USR-03"
+  },
+  {
+    "id": "INV-2026-11-CUS-015",
+    "customer_id": "CUS-015",
+    "invoice_type": "monthly_statement",
+    "period_month": "2026-11",
+    "issued_at": "2026-11-17",
+    "due_at": "2026-12-02",
+    "order_ids": [
+      "ON-11154",
+      "ON-11126",
+      "ON-11129",
+      "ON-11151"
+    ],
+    "gross_amount_cents": 57110,
+    "refund_credit_cents": 0,
+    "paid_cents": 0,
+    "remaining_cents": 57110,
+    "status": "draft",
+    "created_by": "USR-02",
+    "approved_by": null
+  }
+]

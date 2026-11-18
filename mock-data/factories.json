@@ -1,0 +1,26 @@
+[
+  {
+    "id": "FAC-HN",
+    "name_en": "Hanoi Factory",
+    "name_vi": "Nhà máy Hà Nội",
+    "payee_id": "PAYEE-ONOS"
+  },
+  {
+    "id": "FAC-HCM",
+    "name_en": "Ho Chi Minh Factory",
+    "name_vi": "Nhà máy TP.HCM",
+    "payee_id": "PAYEE-SOUTH"
+  },
+  {
+    "id": "FAC-DN",
+    "name_en": "Da Nang Factory",
+    "name_vi": "Nhà máy Đà Nẵng",
+    "payee_id": "PAYEE-CENTRAL"
+  },
+  {
+    "id": "FAC-PARTNER",
+    "name_en": "Partner Factory",
+    "name_vi": "Nhà máy đối tác",
+    "payee_id": "PAYEE-PARTNER"
+  }
+]
